@@ -8,8 +8,8 @@ import ScrollReveal from "./ScrollReveal";
 const footerLinks = {
   company: [
     { label: "About Us", href: "/about/" },
-    { label: "Our Team", href: "/about/" },
-    { label: "Careers", href: "/contact/" },
+    { label: "Why Choose Us", href: "/why-us/" },
+    { label: "Insights", href: "/insights/" },
     { label: "Contact", href: "/contact/" },
   ],
   services: [
