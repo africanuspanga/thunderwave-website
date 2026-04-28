@@ -36,10 +36,10 @@ export default function Navbar() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-gradient-to-r from-[#2F80ED] via-[#4FA3E3] to-[#56CCF2] ${
           isScrolled
-            ? "bg-[#56CCF2]/95 backdrop-blur-md shadow-lg shadow-black/10"
-            : "bg-[#4FA3E3]/90 backdrop-blur-sm"
+            ? "backdrop-blur-md shadow-lg shadow-black/10"
+            : "backdrop-blur-sm"
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -120,7 +120,7 @@ export default function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="absolute right-0 top-0 h-full w-72 bg-[#4FA3E3] shadow-2xl"
+              className="absolute right-0 top-0 h-full w-72 bg-gradient-to-b from-[#2F80ED] via-[#4FA3E3] to-[#56CCF2] shadow-2xl"
             >
               <div className="flex flex-col pt-28 px-6 gap-2">
                 {navLinks.map((link, index) => (
