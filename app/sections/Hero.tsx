@@ -62,7 +62,7 @@ export default function Hero() {
         >
           <Zap size={16} className="text-[#D4AF37]" />
           <span className="text-sm text-white/80">
-            Powering Business Growth with Technology
+            Powering Growth Across Five Industries
           </span>
         </motion.div>
 
@@ -72,9 +72,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.15 }}
           className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-bold font-[family-name:var(--font-poppins)] text-white leading-tight mb-6 drop-shadow-lg"
         >
-          Smart Technology
+          Thunderwave
           <br />
-          <span className="text-gradient-gold">Solutions</span>
+          <span className="text-gradient-gold">Company Limited</span>
         </motion.h1>
 
         <motion.p
@@ -83,8 +83,8 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-base md:text-xl text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed drop-shadow-md"
         >
-          Thunderwave delivers reliable, scalable, and future-ready technology
-          solutions for modern businesses.
+          A diversified conglomerate delivering excellence in IT, solar energy,
+          tourism, tailoring, and agricultural solutions across Tanzania.
         </motion.p>
 
         <motion.div
@@ -100,10 +100,10 @@ export default function Hero() {
             Get Started
           </Link>
           <Link
-            href="/contact/"
+            href="/about/"
             className="px-8 py-4 rounded-xl text-sm md:text-base w-full sm:w-auto text-center border border-white/30 text-white hover:bg-white/10 hover:border-white/50 transition-all backdrop-blur-sm"
           >
-            Contact Us
+            Learn More
           </Link>
         </motion.div>
 

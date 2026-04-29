@@ -9,11 +9,12 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { href: "/", label: "Home" },
-  { href: "/about/", label: "About Us" },
-  { href: "/services/", label: "Services" },
-  { href: "/products/", label: "Products" },
-  { href: "/insights/", label: "Insights" },
-  { href: "/contact/", label: "Contact" },
+  { href: "/about/", label: "About" },
+  { href: "/services/", label: "IT" },
+  { href: "/tourism/", label: "Tourism" },
+  { href: "/agriculture/", label: "Agriculture" },
+  { href: "/solar-energy/", label: "Solar" },
+  { href: "/tailoring/", label: "Tailoring" },
 ];
 
 export default function Navbar() {
@@ -119,7 +120,7 @@ export default function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="absolute right-0 top-0 h-full w-72 bg-gradient-to-b from-[#2F80ED] via-[#4FA3E3] to-[#56CCF2] shadow-2xl"
+              className="absolute right-0 top-0 h-full w-72 bg-gradient-to-b from-[#2F80ED] via-[#4FA3E3] to-[#56CCF2] shadow-2xl overflow-y-auto"
             >
               <div className="flex flex-col pt-28 px-6 gap-2">
                 {navLinks.map((link, index) => (
@@ -145,7 +146,7 @@ export default function Navbar() {
                 <motion.div
                   initial={{ opacity: 0, x: 20 }}
                   animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.35 }}
+                  transition={{ delay: navLinks.length * 0.05 }}
                   className="mt-4"
                 >
                   <Link

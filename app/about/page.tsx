@@ -40,7 +40,7 @@ export default function AboutPage() {
       <main className="flex-1">
         <PageHeader
           title="About Thunderwave"
-          subtitle="Empowering businesses through innovative technology solutions"
+          subtitle="A diversified conglomerate built on innovation, integrity, and excellence"
           backgroundImage="/bacground%20header%20section%20all%20pages.jpg"
           breadcrumbs={[
             { label: "Home", href: "/" },
@@ -72,16 +72,16 @@ export default function AboutPage() {
                     <span className="text-gradient-gold">Excellence</span>
                   </h2>
                   <p className="text-[#6B7280] leading-relaxed">
-                    THUNDERWAVE COMPANY LIMITED is committed to delivering
-                    innovative IT solutions that empower businesses to succeed in
-                    a digital-first world. With a strong focus on reliability,
-                    security, and performance, we provide end-to-end technology
-                    services tailored to organizations of all sizes.
+                    THUNDERWAVE COMPANY LIMITED is a diversified conglomerate
+                    operating across five key sectors: IT services, solar energy,
+                    tourism, tailoring, and agricultural solutions. We are committed
+                    to delivering innovative, reliable, and sustainable value that
+                    empowers businesses, individuals, and communities to thrive.
                   </p>
                   <p className="text-[#6B7280] leading-relaxed">
                     Based in Mikocheni, Dar es Salaam, we serve clients across
-                    Tanzania with a team of certified professionals who bring
-                    deep expertise and passion to every project.
+                    Tanzania with dedicated teams of certified professionals who bring
+                    deep expertise and passion to every division and project.
                   </p>
                 </div>
               </ScrollReveal>
@@ -130,9 +130,10 @@ export default function AboutPage() {
                       Our Vision
                     </h3>
                     <p className="text-[#6B7280] leading-relaxed">
-                      To become a leading IT solutions provider in Africa,
+                      To become a leading diversified conglomerate in Africa,
                       recognized for innovation, reliability, and exceptional
-                      customer service that transforms how businesses operate.
+                      service that transforms businesses and communities across
+                      multiple industries.
                     </p>
                   </div>
                 </motion.div>

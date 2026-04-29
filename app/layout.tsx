@@ -17,14 +17,15 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Thunderwave Company Limited | Smart Technology Solutions",
+  title: "Thunderwave Company Limited | Diversified Conglomerate",
   description:
-    "Thunderwave delivers reliable, scalable, and future-ready technology solutions for modern businesses. IT services, cybersecurity, cloud computing, and software development in Tanzania.",
+    "Thunderwave is a diversified conglomerate operating in IT services, solar energy, tourism, tailoring, and agricultural solutions across Tanzania.",
   keywords: [
     "IT solutions",
-    "cybersecurity",
-    "cloud computing",
-    "software development",
+    "solar energy",
+    "tourism",
+    "tailoring",
+    "agriculture",
     "Tanzania",
     "Dar es Salaam",
     "Thunderwave",

@@ -267,3 +267,8 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #56CCF2;
 }
+
+/* Hide scrollbar utility */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

@@ -31,16 +31,15 @@ export default function CTASection() {
       <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <ScrollReveal>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold font-[family-name:var(--font-poppins)] text-white leading-tight mb-6">
-            Ready to Upgrade Your{" "}
-            <span className="text-[#0A0A0A]">IT Infrastructure?</span>
+            Ready to Work With{" "}
+            <span className="text-[#0A0A0A]">Thunderwave?</span>
           </h2>
         </ScrollReveal>
 
         <ScrollReveal delay={0.15}>
           <p className="text-base md:text-lg text-white/80 max-w-2xl mx-auto mb-10">
-            Let Thunderwave power your business with cutting-edge technology.
-            Get in touch today and discover how we can transform your
-            operations.
+            Whether you need technology solutions, solar power, travel planning,
+            custom clothing, or farming expertise — we are here to help.
           </p>
         </ScrollReveal>
 

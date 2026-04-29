@@ -3,7 +3,7 @@ import Footer from "./components/Footer";
 import WhatsAppButton from "./components/WhatsAppButton";
 import Hero from "./sections/Hero";
 import AboutShort from "./sections/AboutShort";
-import ServicesGrid from "./sections/ServicesGrid";
+import DivisionHighlights from "./sections/DivisionHighlights";
 import WhyUs from "./sections/WhyUs";
 import ProductsPreview from "./sections/ProductsPreview";
 import Testimonials from "./sections/Testimonials";
@@ -17,7 +17,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <AboutShort />
-        <ServicesGrid />
+        <DivisionHighlights />
         <WhyUs />
         <ProductsPreview />
         <Testimonials />

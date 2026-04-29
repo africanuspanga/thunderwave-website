@@ -5,28 +5,22 @@ import Image from "next/image";
 import { Mail, Phone, MapPin, ArrowUp } from "lucide-react";
 import ScrollReveal from "./ScrollReveal";
 
-const footerLinks = {
-  company: [
-    { label: "About Us", href: "/about/" },
-    { label: "Why Choose Us", href: "/why-us/" },
-    { label: "Insights", href: "/insights/" },
-    { label: "Contact", href: "/contact/" },
-  ],
-  services: [
-    { label: "Software Installation", href: "/services/" },
-    { label: "IT Support", href: "/services/" },
-    { label: "Cybersecurity", href: "/services/" },
-    { label: "Cloud Computing", href: "/services/" },
-    { label: "Software Development", href: "/services/" },
-    { label: "Network Infrastructure", href: "/services/" },
-  ],
-  products: [
-    { label: "Enterprise Servers", href: "/products/" },
-    { label: "Networking Equipment", href: "/products/" },
-    { label: "SaaS Platforms", href: "/products/" },
-    { label: "Business Automation", href: "/products/" },
-  ],
-};
+const quickLinks = [
+  { label: "Home", href: "/" },
+  { label: "About Us", href: "/about/" },
+  { label: "Why Choose Us", href: "/why-us/" },
+  { label: "Insights", href: "/insights/" },
+  { label: "Contact", href: "/contact/" },
+  { label: "Products", href: "/products/" },
+];
+
+const divisionLinks = [
+  { label: "IT Services", href: "/services/" },
+  { label: "Solar Energy", href: "/solar-energy/" },
+  { label: "Tourism", href: "/tourism/" },
+  { label: "Tailoring", href: "/tailoring/" },
+  { label: "Agricultural Solutions", href: "/agriculture/" },
+];
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -51,8 +45,9 @@ export default function Footer() {
                 className="h-16 md:h-20 w-auto object-contain mb-6"
               />
               <p className="text-[#6B7280] text-sm leading-relaxed mb-6">
-                Delivering innovative, secure, and scalable technology solutions
-                that help businesses grow and stay protected.
+                A diversified conglomerate delivering excellence across IT,
+                solar energy, tourism, tailoring, and agriculture. Building
+                value and empowering communities.
               </p>
               <div className="space-y-3">
                 <a
@@ -81,14 +76,14 @@ export default function Footer() {
             </div>
           </ScrollReveal>
 
-          {/* Company Links */}
+          {/* Divisions Links */}
           <ScrollReveal delay={0.1}>
             <div>
               <h3 className="text-white font-semibold font-[family-name:var(--font-poppins)] mb-5">
-                Company
+                Divisions
               </h3>
               <ul className="space-y-3">
-                {footerLinks.company.map((link) => (
+                {divisionLinks.map((link) => (
                   <li key={link.label}>
                     <Link
                       href={link.href}
@@ -102,14 +97,14 @@ export default function Footer() {
             </div>
           </ScrollReveal>
 
-          {/* Services Links */}
+          {/* Quick Links */}
           <ScrollReveal delay={0.2}>
             <div>
               <h3 className="text-white font-semibold font-[family-name:var(--font-poppins)] mb-5">
-                Services
+                Quick Links
               </h3>
               <ul className="space-y-3">
-                {footerLinks.services.map((link) => (
+                {quickLinks.map((link) => (
                   <li key={link.label}>
                     <Link
                       href={link.href}
@@ -130,16 +125,38 @@ export default function Footer() {
                 Products
               </h3>
               <ul className="space-y-3">
-                {footerLinks.products.map((link) => (
-                  <li key={link.label}>
-                    <Link
-                      href={link.href}
-                      className="text-sm text-[#6B7280] hover:text-[#4FA3E3] transition-colors"
-                    >
-                      {link.label}
-                    </Link>
-                  </li>
-                ))}
+                <li>
+                  <Link
+                    href="/products/"
+                    className="text-sm text-[#6B7280] hover:text-[#4FA3E3] transition-colors"
+                  >
+                    Enterprise Servers
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products/"
+                    className="text-sm text-[#6B7280] hover:text-[#4FA3E3] transition-colors"
+                  >
+                    Networking Equipment
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products/"
+                    className="text-sm text-[#6B7280] hover:text-[#4FA3E3] transition-colors"
+                  >
+                    SaaS Platforms
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/products/"
+                    className="text-sm text-[#6B7280] hover:text-[#4FA3E3] transition-colors"
+                  >
+                    Business Automation
+                  </Link>
+                </li>
               </ul>
             </div>
           </ScrollReveal>
