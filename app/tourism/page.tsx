@@ -241,9 +241,9 @@ export default function TourismPage() {
                   <Image
                     src="/Tourism/Masai%20Amazing%20Safaris.png"
                     alt="Masai Amazing Safaris"
-                    width={320}
-                    height={100}
-                    className="object-contain h-16 md:h-20 w-auto"
+                    width={420}
+                    height={140}
+                    className="object-contain h-20 md:h-28 w-auto"
                   />
                 </div>
                 <p className="text-[#6B7280] text-sm mt-3">

@@ -129,9 +129,9 @@ export default function TailoringPage() {
                   <Image
                     src="/Mtu%20Africa%20Tailoring/Mtu-Africa-logo.png"
                     alt="Mtu Africa Suit"
-                    width={280}
-                    height={100}
-                    className="object-contain h-16 md:h-20 w-auto"
+                    width={380}
+                    height={140}
+                    className="object-contain h-20 md:h-28 w-auto"
                   />
                 </div>
                 <p className="text-[#6B7280] text-sm mt-3">
