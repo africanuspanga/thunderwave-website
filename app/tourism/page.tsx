@@ -153,7 +153,6 @@ const safariPackages = [
 ];
 
 const logos = [
-  { src: "/Tourism/Masai%20Amazing%20Safaris.png", alt: "Masai Amazing Safaris" },
   { src: "/Tourism/recommednation logos copy/TripAdvisor_Logo.svg.png", alt: "TripAdvisor" },
   { src: "/Tourism/recommednation logos copy/google-reviews-logo.png", alt: "Google Reviews" },
   { src: "/Tourism/recommednation logos copy/trust-pilot-stacked-black.svg", alt: "Trustpilot" },
@@ -257,6 +256,14 @@ export default function TourismPage() {
 
               <ScrollReveal direction="right">
                 <div className="space-y-6">
+                  <div className="relative h-20 w-56 md:h-24 md:w-64 mb-2">
+                    <Image
+                      src="/Tourism/Masai%20Amazing%20Safaris.png"
+                      alt="Masai Amazing Safaris"
+                      fill
+                      className="object-contain"
+                    />
+                  </div>
                   <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-poppins)] text-white leading-tight">
                     Explore Tanzania's{" "}
                     <span className="text-gradient-gold">Wild Beauty</span>
