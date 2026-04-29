@@ -153,6 +153,7 @@ const safariPackages = [
 ];
 
 const logos = [
+  { src: "/Tourism/Masai%20Amazing%20Safaris.png", alt: "Masai Amazing Safaris" },
   { src: "/Tourism/recommednation logos copy/TripAdvisor_Logo.svg.png", alt: "TripAdvisor" },
   { src: "/Tourism/recommednation logos copy/google-reviews-logo.png", alt: "Google Reviews" },
   { src: "/Tourism/recommednation logos copy/trust-pilot-stacked-black.svg", alt: "Trustpilot" },
