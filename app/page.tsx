@@ -4,6 +4,7 @@ import WhatsAppButton from "./components/WhatsAppButton";
 import Hero from "./sections/Hero";
 import AboutShort from "./sections/AboutShort";
 import DivisionHighlights from "./sections/DivisionHighlights";
+import Partners from "./sections/Partners";
 import WhyUs from "./sections/WhyUs";
 import ProductsPreview from "./sections/ProductsPreview";
 import Testimonials from "./sections/Testimonials";
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <AboutShort />
         <DivisionHighlights />
+        <Partners />
         <WhyUs />
         <ProductsPreview />
         <Testimonials />
