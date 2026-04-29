@@ -232,8 +232,30 @@ export default function TourismPage() {
           ]}
         />
 
+        {/* Brand Banner */}
+        <section className="pt-16 pb-8 md:pt-20 md:pb-10 bg-[#0A0A0A]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <ScrollReveal>
+              <div className="inline-flex flex-col items-center">
+                <div className="bg-white/5 border border-white/10 rounded-2xl px-8 py-6 md:px-12 md:py-8">
+                  <Image
+                    src="/Tourism/Masai%20Amazing%20Safaris.png"
+                    alt="Masai Amazing Safaris"
+                    width={320}
+                    height={100}
+                    className="object-contain h-16 md:h-20 w-auto"
+                  />
+                </div>
+                <p className="text-[#6B7280] text-sm mt-3">
+                  Authentic Tanzania Safari Experiences
+                </p>
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
+
         {/* Intro */}
-        <section className="py-20 md:py-28 bg-[#0A0A0A]">
+        <section className="py-16 md:py-24 bg-[#0A0A0A]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
               <ScrollReveal direction="left">
@@ -256,14 +278,6 @@ export default function TourismPage() {
 
               <ScrollReveal direction="right">
                 <div className="space-y-6">
-                  <div className="relative h-20 w-56 md:h-24 md:w-64 mb-2">
-                    <Image
-                      src="/Tourism/Masai%20Amazing%20Safaris.png"
-                      alt="Masai Amazing Safaris"
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
                   <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-poppins)] text-white leading-tight">
                     Explore Tanzania's{" "}
                     <span className="text-gradient-gold">Wild Beauty</span>

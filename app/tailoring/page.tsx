@@ -120,8 +120,30 @@ export default function TailoringPage() {
           ]}
         />
 
+        {/* Brand Banner */}
+        <section className="pt-16 pb-8 md:pt-20 md:pb-10 bg-[#0A0A0A]">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <ScrollReveal>
+              <div className="inline-flex flex-col items-center">
+                <div className="bg-white/5 border border-white/10 rounded-2xl px-8 py-6 md:px-12 md:py-8">
+                  <Image
+                    src="/Mtu%20Africa%20Tailoring/Mtu-Africa-logo.png"
+                    alt="Mtu Africa Suit"
+                    width={280}
+                    height={100}
+                    className="object-contain h-16 md:h-20 w-auto"
+                  />
+                </div>
+                <p className="text-[#6B7280] text-sm mt-3">
+                  Luxury Suit | Craftsmanship 🪡
+                </p>
+              </div>
+            </ScrollReveal>
+          </div>
+        </section>
+
         {/* Brand Hero */}
-        <section className="py-20 md:py-28 bg-[#0A0A0A]">
+        <section className="py-16 md:py-24 bg-[#0A0A0A]">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
               <ScrollReveal direction="left">
@@ -139,24 +161,11 @@ export default function TailoringPage() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A]/70 to-transparent" />
                   </div>
-                  <div className="absolute bottom-4 left-4 glass px-4 py-2 rounded-lg">
-                    <p className="text-sm font-semibold text-[#D4AF37]">
-                      Luxury Suit | Craftsmanship 🪡
-                    </p>
-                  </div>
                 </motion.div>
               </ScrollReveal>
 
               <ScrollReveal direction="right">
                 <div className="space-y-6">
-                  <div className="relative h-24 w-64 md:h-28 md:w-72 mb-4">
-                    <Image
-                      src="/Mtu%20Africa%20Tailoring/Mtu-Africa-logo.png"
-                      alt="Mtu Africa Suit"
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
                   <h2 className="text-3xl md:text-4xl font-bold font-[family-name:var(--font-poppins)] text-white leading-tight">
                     MTU AFRICA <span className="text-gradient-gold">SUIT</span>
                   </h2>
