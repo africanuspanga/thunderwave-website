@@ -11,7 +11,6 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/about/", label: "About" },
   { href: "/services/", label: "IT" },
-  { href: "/tourism/", label: "Tourism" },
   { href: "/agriculture/", label: "Agriculture" },
   { href: "/solar-energy/", label: "Solar" },
   { href: "/tailoring/", label: "Tailoring" },

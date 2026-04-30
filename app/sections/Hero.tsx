@@ -62,7 +62,7 @@ export default function Hero() {
         >
           <Zap size={16} className="text-[#D4AF37]" />
           <span className="text-sm text-white/80">
-            Powering Growth Across Five Industries
+            Powering Growth Across Four Industries
           </span>
         </motion.div>
 
@@ -84,7 +84,7 @@ export default function Hero() {
           className="text-base md:text-xl text-white/80 max-w-2xl mx-auto mb-10 leading-relaxed drop-shadow-md"
         >
           A diversified conglomerate delivering excellence in IT, solar energy,
-          tourism, tailoring, and agricultural solutions across Tanzania.
+          tailoring, and agricultural solutions across Tanzania.
         </motion.p>
 
         <motion.div

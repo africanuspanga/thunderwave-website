@@ -19,11 +19,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Thunderwave Company Limited | Diversified Conglomerate",
   description:
-    "Thunderwave is a diversified conglomerate operating in IT services, solar energy, tourism, tailoring, and agricultural solutions across Tanzania.",
+    "Thunderwave is a diversified conglomerate operating in IT services, solar energy, tailoring, and agricultural solutions across Tanzania.",
   keywords: [
     "IT solutions",
     "solar energy",
-    "tourism",
+
     "tailoring",
     "agriculture",
     "Tanzania",

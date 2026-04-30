@@ -5,7 +5,6 @@ import Link from "next/link";
 import {
   Monitor,
   Sun,
-  Plane,
   Scissors,
   Sprout,
   ArrowRight,
@@ -31,15 +30,6 @@ const divisions = [
     color: "#F59E0B",
     href: "/solar-energy/",
     gradient: "from-amber-500 to-orange-500",
-  },
-  {
-    icon: Plane,
-    title: "Tourism",
-    description:
-      "Curated travel experiences, safaris, and corporate travel management.",
-    color: "#14B8A6",
-    href: "/tourism/",
-    gradient: "from-teal-500 to-cyan-500",
   },
   {
     icon: Scissors,

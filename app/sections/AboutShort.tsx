@@ -43,14 +43,14 @@ export default function AboutShort() {
           <ScrollReveal direction="right">
             <div className="space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold font-[family-name:var(--font-poppins)] text-white leading-tight">
-                Five Divisions, One Vision for{" "}
+                Four Divisions, One Vision for{" "}
                 <span className="text-gradient-blue">Excellence</span>
               </h3>
 
               <p className="text-[#6B7280] leading-relaxed">
                 THUNDERWAVE COMPANY LIMITED is a diversified conglomerate based
                 in Dar es Salaam, Tanzania. We operate across five key sectors —
-                IT services, solar energy, tourism, tailoring, and agricultural
+                IT services, solar energy, tailoring, and agricultural
                 solutions — delivering innovative, reliable, and sustainable
                 value to individuals, businesses, and communities.
               </p>
@@ -59,7 +59,6 @@ export default function AboutShort() {
                 {[
                   { label: "IT Services", desc: "Tech that powers business" },
                   { label: "Solar Energy", desc: "Clean power for all" },
-                  { label: "Tourism", desc: "Unforgettable journeys" },
                   { label: "Tailoring", desc: "Style made to measure" },
                   { label: "Agriculture", desc: "Farming the future" },
                   { label: "Integrity", desc: "Trust in every thread" },

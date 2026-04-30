@@ -6,7 +6,6 @@ import Link from "next/link";
 import {
   Monitor,
   Sun,
-  Plane,
   Scissors,
   Sprout,
   ArrowRight,
@@ -34,16 +33,6 @@ const highlights = [
     href: "/solar-energy/",
     gradient: "from-amber-500 to-orange-500",
     image: "/solar%20images/Powering%20brighter%20tomorrow.jpg",
-  },
-  {
-    icon: Plane,
-    title: "Tourism",
-    description:
-      "Experience Tanzania's wild beauty with our curated safari adventures across iconic national parks — from the Serengeti to Ngorongoro. Unforgettable journeys await.",
-    color: "#14B8A6",
-    href: "/tourism/",
-    gradient: "from-teal-500 to-cyan-500",
-    image: "/Tourism/safari-8-days.jpg",
   },
   {
     icon: Scissors,

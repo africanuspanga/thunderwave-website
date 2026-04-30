@@ -17,7 +17,6 @@ const quickLinks = [
 const divisionLinks = [
   { label: "IT Services", href: "/services/" },
   { label: "Solar Energy", href: "/solar-energy/" },
-  { label: "Tourism", href: "/tourism/" },
   { label: "Tailoring", href: "/tailoring/" },
   { label: "Agricultural Solutions", href: "/agriculture/" },
 ];
@@ -46,7 +45,7 @@ export default function Footer() {
               />
               <p className="text-[#6B7280] text-sm leading-relaxed mb-6">
                 A diversified conglomerate delivering excellence across IT,
-                solar energy, tourism, tailoring, and agriculture. Building
+                solar energy, tailoring, and agriculture. Building
                 value and empowering communities.
               </p>
               <div className="space-y-3">

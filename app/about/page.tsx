@@ -73,8 +73,8 @@ export default function AboutPage() {
                   </h2>
                   <p className="text-[#6B7280] leading-relaxed">
                     THUNDERWAVE COMPANY LIMITED is a diversified conglomerate
-                    operating across five key sectors: IT services, solar energy,
-                    tourism, tailoring, and agricultural solutions. We are committed
+                    operating across four key sectors: IT services, solar energy,
+                    tailoring, and agricultural solutions. We are committed
                     to delivering innovative, reliable, and sustainable value that
                     empowers businesses, individuals, and communities to thrive.
                   </p>

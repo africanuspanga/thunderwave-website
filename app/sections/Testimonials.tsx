@@ -33,14 +33,6 @@ const testimonials = [
   },
   {
     quote:
-      "Thunderwave planned our company retreat to Zanzibar flawlessly. Every detail was taken care of — accommodation, transfers, and activities. Our team had an unforgettable experience.",
-    author: "Lillian Kimario",
-    role: "Hotel Manager",
-    division: "Tourism",
-    rating: 5,
-  },
-  {
-    quote:
       "The custom uniforms Thunderwave tailored for my boutique are exceptional quality. Their attention to detail and fabric selection advice really set them apart from the rest.",
     author: "Salehe Salum",
     role: "Fashion Boutique Owner",
